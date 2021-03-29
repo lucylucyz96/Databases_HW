@@ -1,0 +1,52 @@
+State,Population_Density,Mean_Household_Income,Total_Hospitals,Uninsured_Percentage
+Alabama,94.4,67243,101,0.097
+Alaska,1.2,96499,21,0.115
+Arizona,56.3,77221,83,0.111
+Arkansas,56,64272,88,0.091
+California,239.1,101493,359,0.078
+Colorado,48.5,92520,89,0.078
+Connecticut,738.1,109693,32,0.059
+Delaware,460.8,86962,7,0.066
+District of Columbia,9856.5,121698,10,0.036
+Florida,350.6,76652,217,0.131
+Georgia,168.4,78574,145,0.134
+Hawaii,211.8,99765,22,0.041
+Idaho,19,70620,45,0.105
+Illinois,231.1,88857,187,0.073
+Indiana,181,71912,132,0.088
+Iowa,54.5,75951,118,0.047
+Kansas,34.9,77509,139,0.092
+Kentucky,109.9,67110,105,0.064
+Louisiana,104.9,68823,158,0.089
+Maine,43.1,73210,34,0.081
+Maryland,594.8,107482,50,0.059
+Massachusetts,839.4,106627,75,0.03
+Michigan,174.8,75352,144,0.058
+Minnesota,66.6,90600,127,0.048
+Mississippi,63.2,60640,99,0.129
+Missouri,87.1,73145,122,0.101
+Montana,6.8,70959,56,0.083
+Nebraska,23.8,77278,93,0.079
+Nevada,24.6,77319,44,0.115
+New Hampshire,147,95876,28,0.064
+New Jersey,1195.5,110140,82,0.079
+New Mexico,17,66565,41,0.098
+New York,411.2,97424,166,0.053
+North Carolina,196.1,73753,112,0.114
+North Dakota,9.7,84043,39,0.074
+Ohio,282.3,74109,194,0.067
+Oklahoma,54.7,70262,125,0.149
+Oregon,39.9,80040,61,0.071
+Pennsylvania,283.9,81549,199,0.057
+Rhode Island,1018.1,85527,11,0.043
+South Carolina,153.9,70093,69,0.108
+South Dakota,10.7,73768,57,0.096
+Tennessee,153.9,71458,115,0.102
+Texas,96.3,84221,523,0.184
+Utah,33.6,87053,54,0.096
+Vermont,67.9,78472,14,0.044
+Virginia,202.6,98000,96,0.08
+Washington,101.2,93847,92,0.066
+West Virginia,77.1,61225,56,0.066
+Wisconsin,105,77687,133,0.058
+Wyoming,5.8,79257,29,0.123

@@ -1,0 +1,78 @@
+<html lang="ENG">
+<head>
+	<title>COVID & economy data analysis</title>
+</head>
+<body>
+<pre>
+<a href="./us_election_map2.html">Link to the data visualization</a>
+--------------------------------------------------------------------------------------------------------
+
+Monthly COVID-19 and stock market summary:
++-------+--------------------+---------------------+----------------------------------+--------------------------------+
+| Month | USA Total Positive | USA Total Recovered | NASDAQ Composite Monthly Average | NYSE Composite Monthly Average |
++-------+--------------------+---------------------+----------------------------------+--------------------------------+
+|   3   |       43686        |         4217        |               7772               |             10726              |
+|   4   |       653823       |        94679        |               8292               |             10857              |
+|   5   |      1459293       |        419112       |               9105               |             11278              |
+|   6   |      2151059       |        669281       |               9839               |             12083              |
+|   7   |      3558189       |       1107087       |              10499               |             12293              |
+|   8   |      5306741       |       1832254       |              11212               |             12880              |
+|   9   |      6552758       |       2512262       |              11088               |             12794              |
+|   10  |      7984089       |       3183309       |              11435               |             12969              |
+|   11  |      10093646      |       3923023       |              11773               |             13650              |
++-------+--------------------+---------------------+----------------------------------+--------------------------------+
+
+------------------------------------------------------------------------------------------------------
+
+Largest market drops over time interval 2020-01-01 to 2020-05-01 
+[one interesting thing to note is that the largest possible drop occurs between february 1st and march 31st
+(aka the indices were at their highest point this year during february, and dropped to their lowest point during march).
+Also, looking at the 1-month intervals, it is clear that the effect of COVID on the stock market was more stable over
+time (the largest drop from march-april was about 3000, while the drops from may-June were essentially less than 1000)]:
+
++----------------------------------+--------------------------------+
+| Largest drop in NASDAQ Composite | Largest drop in NYSE Composite |
++----------------------------------+--------------------------------+
+|               2956               |              5405              |
++----------------------------------+--------------------------------+
+
+------------------------------------------------------------------------------------------------------
+
+Comparison of largest market drops from phase 1 (2020-01-01 to 2020-03-01) and phase 2 (2020-03-01 to 2020-05-01)
++------------------------------------------+------------------------------------------+----------------------------------------+----------------------------------------+
+| Phase 1 Largest drop in NASDAQ Composite | Phase 2 Largest drop in NASDAQ Composite | Phase 1 Largest drop in NYSE Composite | Phase 2 Largest drop in NYSE Composite |
++------------------------------------------+------------------------------------------+----------------------------------------+----------------------------------------+
+|                   1250                   |                   2157                   |                  1802                  |                  4232                  |
++------------------------------------------+------------------------------------------+----------------------------------------+----------------------------------------+
+
+------------------------------------------------------------------------------------------------------
+
+Aggregate info on both stock markets during phase 1 (mid-march thru mid-may) and phase 2 (the last few months of 2020):
++--------------------------------------------------+----------------------------------+----------------------------------+--------------------------------------------------+----------------------------------+----------------------------------+------------------------------------------------+--------------------------------+--------------------------------+------------------------------------------------+--------------------------------+--------------------------------+
+| Phase 1 Average Daily Change In NASDAQ Composite | Phase 1 Minimum NASDAQ Composite | Phase 1 Average NASDAQ Composite | Phase 2 Average Daily Change In NASDAQ Composite | Phase 2 Minimum NASDAQ Composite | Phase 2 Average NASDAQ Composite | Phase 1 Average Daily Change In NYSE Composite | Phase 1 Minimum NYSE Composite | Phase 1 Average NYSE Composite | Phase 2 Average Daily Change In NYSE Composite | Phase 2 Minimum NYSE Composite | Phase 2 Average NYSE Composite |
++--------------------------------------------------+----------------------------------+----------------------------------+--------------------------------------------------+----------------------------------+----------------------------------+------------------------------------------------+--------------------------------+--------------------------------+------------------------------------------------+--------------------------------+--------------------------------+
+|                        18                        |               6860               |               8356               |                        -3                        |              10911               |              11559               |                       4                        |              8777              |             10763              |                       10                       |             12415              |             13242              |
++--------------------------------------------------+----------------------------------+----------------------------------+--------------------------------------------------+----------------------------------+----------------------------------+------------------------------------------------+--------------------------------+--------------------------------+------------------------------------------------+--------------------------------+--------------------------------+
+
+------------------------------------------------------------------------------------------------------
+
+2020 quarterly info: 
+[When COVID-19 was in its "prime", the average index and average volume traded for NASDAQ increased, while the
+opposite happened for NYSE. This tells us that many were trading in technology-related stocks to take
+advantage of the fact that they were low in price and had more potential to grow than traditional stocks both during and
+after the pandemic. From this table and the data above, it is clear that the NASDAQ market was both impacted less and
+recovered faster than the NYSE market (aka traditional, non-tech stocks). The data also tells us that the stock market
+is relatively unreliable in determining the true state of the economy and general welfare, as the unemployment rate
+clearly offers a more accurate (and contradicting, with respect to the market) view of what happened during the
+different quarters of 2020.]
++---------+------------------------------+--------------------------+--------------------------------+------------------------+------------------------------+
+| Quarter | Average US Unemployment Rate | Average NASDAQ Composite | Average Volume Traded (NASDAQ) | Average NYSE Composite | Average Volume Traded (NYSE) |
++---------+------------------------------+--------------------------+--------------------------------+------------------------+------------------------------+
+|    1    |              3               |           8771           |           3273618387           |         12743          |          5212867580          |
+|    2    |              11              |           9091           |           4230162063           |         11418          |          5730262698          |
+|    3    |              8               |          10926           |           3981075781           |         12650          |          4276303750          |
+|    4    |              6               |          11591           |           3920300000           |         13285          |          4498148292          |
++---------+------------------------------+--------------------------+--------------------------------+------------------------+------------------------------+
+</pre>
+</body>
+</html>
